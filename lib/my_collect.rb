@@ -11,5 +11,5 @@ my_collect(["ruby", "javascript", "python"]) do |item|
 end
 
 my_collect(["Tim Jones", "Tom Smith", "Sophie Johnson", "Antoin Miller"]) do |item|
-  item.split(",").first
+  item.split(" ").first
 end
