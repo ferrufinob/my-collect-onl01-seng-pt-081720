@@ -6,8 +6,8 @@ def my_collect(array)
 end
 collect
 end
-my_collect(["ruby", "javascript", "python"]) do |item|
-  item.capitalize
+my_collect(["ruby", "javascript", "python", "objective_c"]) do |item|
+  item.upcase
 end
 
 my_collect(["Tim Jones", "Tom Smith", "Sophie Johnson", "Antoin Miller"]) do |item|
